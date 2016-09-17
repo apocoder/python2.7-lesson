@@ -15,8 +15,8 @@ print "Toplam sürülemeyen arabalar ",surucusuz_arabalar
 print "Toplam yolcu kapasitesi ", toplam_yolcu_kapasitesi
 print "Şuanda toplam ",yolcular," yolcumuz var."
 print "Bizim her arabaya ortalama ",araba_basina_dusen_ortalama_yolcu ," yolcu yerleştirmemiz gerekiyor"
-
-#print içersinde string format kullanmak 
+print "----------------------------------------------------------------"
+#print içersinde string format kullanmak
 ismim = 'python'
 yasim = 46
 agirligim = 74 #kg
