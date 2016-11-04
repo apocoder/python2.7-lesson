@@ -2,6 +2,7 @@
 print "Hello World"
 print "Merhaba Dünya"
 
+print "yeniden merhaba"
 #yorum satırı
 print "Merhaba ben Python"
 # bu yorum satırı için ise peki neden en üstteki bölüm çalıştı?

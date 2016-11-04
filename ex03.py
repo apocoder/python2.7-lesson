@@ -26,9 +26,14 @@ goz_rengim = 'Siyah'
 saclarim = 'Kahverengi'
 
 print "Merhaba benim adım %s." % ismim ,type(ismim)
+print "selam %s" %ismim
 print "Ağırlığım %d" % agirligim  ,type(agirligim)
 print "Boyum %6.2f" % boyum , type(boyum) #string float format
 print "Saçlarım %s , gözlerim %s" % (goz_rengim,saclarim)
 
 print "Ağırlığımı %d , Boyumu %d , Yaşımı %d toplarsak,%6.2f elde ederiz" % (
     agirligim,boyum,yasim,agirligim+boyum+yasim)
+
+ismim ='abdullah'
+yasim = 26
+print "Ben %s, yaşım %d" %(ismim,yasim)
