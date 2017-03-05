@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 x = "%d cesit insan var" % 10
 ikili ='ikili'
 olmayan = 'olmayan'

@@ -2,6 +2,7 @@
 arabalar = 200
 type(arabalar) #type değimi değişkenin ait oldugu tipi verir
 araba_yolcu_kapasitesi = 4.0
+type(araba_yolcu_kapasitesi)
 suruculer = 30
 yolcular = 150
 
@@ -10,7 +11,7 @@ surulebilen_arabalar = suruculer
 toplam_yolcu_kapasitesi = surulebilen_arabalar * araba_yolcu_kapasitesi
 araba_basina_dusen_ortalama_yolcu = yolcular / surulebilen_arabalar
 
-print "Toplam ",arabalar," araba uygun." , type(arabalar)
+print "Toplam ",arabalar," araba uygun." , type(arabalar),type(araba_yolcu_kapasitesi)
 print "Toplam ",suruculer," sürücü uygun." , type(suruculer)
 print "Toplam sürülemeyen arabalar ",surucusuz_arabalar , type(surucusuz_arabalar)
 print "Toplam yolcu kapasitesi ", toplam_yolcu_kapasitesi , type(toplam_yolcu_kapasitesi)
